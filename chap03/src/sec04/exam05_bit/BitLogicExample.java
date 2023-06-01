@@ -4,7 +4,7 @@ public class BitLogicExample {
 		System.out.println("45 & 25 = " + (45 & 25));		
 		System.out.println("45 | 25 = " + (45 | 25));	
 		System.out.println("45 ^ 25 = " + (45 ^ 25));	
-		System.out.println("~45 = " + (~45));
+		System.out.println("~45 = " + (~45));			// 보수 : 논리부정(Not)
 		
 		System.out.println(toBinaryString(45));
 		System.out.println("&");

@@ -13,6 +13,11 @@ public class SignOperatorExample {
 		int result3 = -s; 
 		System.out.println("result3=" + result3);
 
+		// Type mismatch : cannot convert from int on short
+		// 컴파일 에러 : -s는 int로 변환되어 타입이 일치하지 않아 오류 발생
+		// short result4 = -s;
+		short result4 = (short)-s;
+		System.out.println("result4=" + result4);
 	}
 }
 
