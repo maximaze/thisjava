@@ -1,7 +1,14 @@
 package sec02.exam01_if;
-public class IfDiceExample {
+public class IfDiceExample2 {
 	public static void main(String[] args) {
-		int num = (int)(Math.random()*6) + 1;
+				
+		double rnd = Math.random(); // 0.0부터 1.0보다 작은수
+		System.out.println("난수 : " + rnd);
+		
+		double six = rnd * 6.0;
+		System.out.println("six : " + six);
+		
+		int num = (int)six + 1; // 주사위의 경우의 수 : 1부터 6까지
 		
 		if(num==1) {
 			System.out.println("1번이 나왔습니다.");

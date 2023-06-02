@@ -2,19 +2,19 @@ package sec02.exam02_switch;
 
 public class SwitchNoBreakCaseExample {
 	public static void main(String[] args) {
-		//8<= ¡¦ < 12(8+4) »çÀÌÀÇ Á¤¼ö ¾ò±â
+		//8<= â€¦ < 12(8+4) ì‚¬ì´ì˜ ì •ìˆ˜ ì–»ê¸°
 		int time = (int)(Math.random()*4) + 8; 
-		System.out.println("[ÇöÀç½Ã°£: " + time + " ½Ã]");
+		System.out.println("[í˜„ìž¬ì‹œê°„: " + time + " ì‹œ]");
 		
 		switch(time) {
 			case 8:
-				System.out.println("Ãâ±ÙÇÕ´Ï´Ù.");
+				System.out.println("ì¶œê·¼í•©ë‹ˆë‹¤.");
 			case 9:
-				System.out.println("È¸ÀÇ¸¦ ÇÕ´Ï´Ù.");
+				System.out.println("íšŒì˜ë¥¼ í•©ë‹ˆë‹¤.");
 			case 10:
-				System.out.println("¾÷¹«¸¦ º¾´Ï´Ù.");
+				System.out.println("ì—…ë¬´ë¥¼ ë´…ë‹ˆë‹¤.");
 			default:
-				System.out.println("¿Ü±ÙÀ» ³ª°©´Ï´Ù.");
+				System.out.println("ì™¸ê·¼ì„ ë‚˜ê°‘ë‹ˆë‹¤.");
 		}
 	}
 }
