@@ -1,22 +1,22 @@
-// ìë™ í˜•ë³€í™˜ : Promotion
-// ì‘ì€ í¬ê¸° íƒ€ì…ì—ì„œ í° í¬ê¸° íƒ€ì…ìœ¼ë¡œ ë³€í™˜
+// ÀÚµ¿ Çüº¯È¯ : Promotion
+// ÀÛÀº Å©±â Å¸ÀÔ¿¡¼­ Å« Å©±â Å¸ÀÔÀ¸·Î  º¯È¯
 package sec03.exam01_promotion;
 public class PromotionExample {
 	public static void main(String[] args) {	
 		byte byteValue = 10;
-		int intValue = byteValue;
+		int intValue = byteValue; 
 		System.out.println(intValue);
 
-		char charValue = 'ê°€';
+		char charValue = '°¡';
 		intValue = charValue;
-		System.out.println("ê°€ì˜ ìœ ë‹ˆì½”ë“œ=" + intValue);
+		System.out.println("°¡ÀÇ À¯´ÏÄÚµå=" + intValue);
 		
 		intValue = 500;
 		long longValue = intValue;;
 		System.out.println(longValue);		
 		
 		intValue = 200;
-		double doubleValue = intValue; // ì„±ê²©ì´ ë‹¬ë¼ë„ ê°€ëŠ¥(ì‹¤ìˆ˜ <- ì •ìˆ˜)
+		double doubleValue = intValue; // ¼º°İÀÌ ´Ş¶óµµ °¡´É(½Ç¼ö <- Á¤¼ö)
 		System.out.println(doubleValue);		
 	} 
 }

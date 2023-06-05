@@ -1,10 +1,10 @@
 package sec02.exam01_byte;
 public class GarbageValueExample {
 	public static void main(String[] args) {
-		byte var1 = 125;	// 1ë°”ì´íŠ¸
-		int var2 = 125;		// 4ë°”ì´íŠ¸
+		byte var1 = 125; // 1¹ÙÀÌÆ®
+		int var2 = 125;  // 4¹ÙÀÌÆ®
 		
-		for(int i=0; i<5; i++) { // 5ë²ˆ ë°˜ë³µ: 0,1,2,3,4
+		for(int i=0; i<5; i++) { // 5¹ø ¹İº¹:0,1,2,3,4
 			var1++;
 			var2++;
 			System.out.println("var1: " + var1 + "\t" + "var2: " + var2);

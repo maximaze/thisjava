@@ -2,17 +2,17 @@ package sec02.exam02_switch;
 
 public class SwitchStringExample {
 	public static void main(String[] args) {
-		String position = "ê³¼ì¥";
+		String position = "°úÀå";
 		
 		switch(position) {
-			case "ë¶€ì¥":
-				System.out.println("700ë§Œì›");
+			case "ºÎÀå":
+				System.out.println("700¸¸¿ø");
 				break;
-			case "ê³¼ì¥":
-				System.out.println("500ë§Œì›");
+			case "°úÀå":
+				System.out.println("500¸¸¿ø");
 				break;							
 			default:
-				System.out.println("300ë§Œì›");
+				System.out.println("300¸¸¿ø");
 		}
 	}
 }

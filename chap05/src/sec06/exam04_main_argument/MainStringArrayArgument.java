@@ -1,4 +1,8 @@
+/*
+ * cmd : java sec06.exam04_main_argument.MainStringArrayArgument 10 20
+ */
 package sec06.exam04_main_argument;
+
 public class MainStringArrayArgument {
 	public static void main(String[] args) {
 		if(args.length != 2) {

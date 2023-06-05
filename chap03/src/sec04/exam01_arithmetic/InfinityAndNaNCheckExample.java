@@ -7,15 +7,15 @@ public class InfinityAndNaNCheckExample {
 		double z = x / y;
 		//double z = x % y;
 		
-		System.out.println("isInfinate : " + Double.isInfinite(z)); // ë¬´í•œëŒ€
-		System.out.println("isNan : " + Double.isNaN(z));	// Not a Numer
+		System.out.println("isInfinite : " + Double.isInfinite(z)); 	// ¹«ÇÑ´ë
+		System.out.println("isNan: " + Double.isNaN(z));		// Not a Number
 		
-		//ì˜ëª»ëœ ì½”ë“œ
-		System.out.println("Infinite + 2" + (z + 2));	
+		// Àß¸øµÈ ÄÚµå
+		System.out.println("Infinite + 2 : " + (z + 2));	
 		
-		//ì•Œë§ì€ ì½”ë“œ
+		// ¾Ë¸ÂÀº ÄÚµå
 		if(Double.isInfinite(z) || Double.isNaN(z)) { 
-			System.out.println("ê°’ ì‚°ì¶œ ë¶ˆê°€"); 
+			System.out.println("°ª »êÃâ ºÒ°¡"); 
 		} else { 
 			System.out.println(z + 2); 
 		}
@@ -30,7 +30,7 @@ public class InfinityAndNaNCheckExample {
 			int z = x % y;
 			System.out.println("z: " + z);
 		} catch(ArithmeticException e) {
-			System.out.println("0ìœ¼ë¡œ ë‚˜ëˆ„ë©´ ì•ˆë¨");
+			System.out.println("0À¸·Î ³ª´©¸é ¾ÈµÊ");
 		}*/
 	}
 }

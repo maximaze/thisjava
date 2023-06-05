@@ -10,8 +10,8 @@ public class AccuracyExample2 {
 		
 		double result = temp/10.0; 
 		
-		System.out.println("ì‚¬ê³¼ í•œê°œì—ì„œ ");
-		System.out.println("0.7 ì¡°ê°ì„ ë¹¼ë©´, ");
-		System.out.println(result + " ì¡°ê°ì´ ë‚¨ëŠ”ë‹¤.");
+		System.out.println("»ç°ú ÇÑ°³¿¡¼­ ");
+		System.out.println("0.7 Á¶°¢À» »©¸é, ");
+		System.out.println(result + " Á¶°¢ÀÌ ³²´Â´Ù.");
 	}
 }

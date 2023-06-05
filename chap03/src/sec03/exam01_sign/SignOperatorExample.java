@@ -9,12 +9,11 @@ public class SignOperatorExample {
 		System.out.println("result2=" + result2);
 		
 		short s = 100;
-		//short result3 = -s;  //ì»´íŒŒì¼ ì—ëŸ¬ 
 		int result3 = -s; 
 		System.out.println("result3=" + result3);
 
-		// Type mismatch : cannot convert from int on short
-		// ì»´íŒŒì¼ ì—ëŸ¬ : -sëŠ” intë¡œ ë³€í™˜ë˜ì–´ íƒ€ì…ì´ ì¼ì¹˜í•˜ì§€ ì•Šì•„ ì˜¤ë¥˜ ë°œìƒ
+		// Type mismatch: cannot convert from int to short
+		// ÄÄÆÄÀÏ ¿¡·¯ : -s´Â int·Î º¯È¯µÇ¾î Å¸ÀÔÀÌ ÀÏÄ¡ÇÏÁö ¾Ê¾Æ ¿À·ù ¹ß»ı
 		// short result4 = -s;
 		short result4 = (short)-s;
 		System.out.println("result4=" + result4);

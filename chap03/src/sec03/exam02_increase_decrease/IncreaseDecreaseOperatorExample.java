@@ -7,14 +7,14 @@ public class IncreaseDecreaseOperatorExample {
 		int z;
 		
 		System.out.println("-----------------------");
-		x++; // ì¦ê°€ì—°ì‚°ìž
+		x++; // Áõ°¡¿¬»êÀÚ
 		++x; // x = x + 1
 		System.out.println("x=" + x); // 12
 
 		System.out.println("-----------------------");		
-		y--; // ê°ì†Œì—°ì‚°ìž
+		y--; // °¨¼Ò¿¬»êÀÚ
 		--y; // y = y - 1
-		System.out.println("y=" + y); // 8 		
+		System.out.println("y=" + y); // 8		
 
 		System.out.println("-----------------------");		
 		z = x++;
@@ -30,7 +30,7 @@ public class IncreaseDecreaseOperatorExample {
 		z = ++x + y++; // 14+1(15) + 8 -> 23 
 		System.out.println("z=" + z); // 23
 		System.out.println("x=" + x); // 15
-		System.out.println("y=" + y); // 8
+		System.out.println("y=" + y); // 9
 	}
 }
 

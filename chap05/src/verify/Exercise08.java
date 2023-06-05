@@ -1,3 +1,6 @@
+/*
+ * 2차원 배열에서 총합, 평균을 구하라.
+ */
 package verify;
 public class Exercise08 {
 	public static void main(String[] args) {
@@ -19,6 +22,7 @@ public class Exercise08 {
 		}
 		avg = (double) sum / count;
 
+		System.out.println("cnt: " + count);
 		System.out.println("sum: " + sum);
 		System.out.println("avg: " + avg);
 	}

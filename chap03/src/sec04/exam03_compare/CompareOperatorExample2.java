@@ -4,23 +4,22 @@ public class CompareOperatorExample2 {
 	public static void main(String[] args) {
 		int v2 = 1;
 		double v3 = 1.0;
-		System.out.println(v2 == v3); //true
+		System.out.println(v2 == v3); // true
 		
 		double v4 = 0.1;
 		float v5 = 0.1f;
 		
-		// ë¶€ë™ì†Œìˆ«ì ì—ì„œ 0.1ì€ ì •í™•í•˜ê²Œ í‘œí˜„ í•  ìˆ˜ ì—†ë‹¤.
-		System.out.println("v4(0.1) -> " + v4);
-		System.out.println("v5(0.1f) -> " + v5);
+		// ºÎµ¿¼Ò¼ýÁ¡¿¡¼­ 0.1Àº Á¤È®ÇÏ°Ô Ç¥Çö ÇÒ ¼ö ¾ø´Ù.
+		System.out.println("v4(0.1) ->" + v4);
+		System.out.println("v5(0.1f) ->" + v5);
 		
-		System.out.println(v4 == v5); //false
+		System.out.println(v4 == v5); // false
 		
-		System.out.println((float)v4 == v5); //true
+		System.out.println((float)v4 == v5); // true
 		
 		System.out.println(v4 == (double)v5); // false
 		
 		System.out.println((int)(v4*10) == (int)(v5*10)); //true
-		
 	}
 }
 

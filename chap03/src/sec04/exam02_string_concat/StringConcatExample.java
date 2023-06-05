@@ -2,18 +2,18 @@ package sec04.exam02_string_concat;
 
 public class StringConcatExample {
 	public static void main(String[] args) {
-		// ì—°ì‚°ì(+)ì—ì„œ í”¼ì—°ì‚°ì ì¤‘ í•œ ìª½ì´ ë¬¸ìì—´ì´ë©´?
-		// ì—°ì‚°ì(+)ëŠ” ë¬¸ìì—´ ì—°ì‚°ìë¡œ ì²˜ë¦¬
-		// ë¬¸ìì—´ë¡œ ë³€í™˜ ì‹œì¼œì„œ ì²˜ë¦¬
-		String str1 = "JDK" + 6.0;	// ë¬¸ìì—´ + ìˆ«ì -> ë¬¸ìì—´
+		// ¿¬»êÀÚ(+)¿¡¼­ ÇÇ¿¬»êÀÚ Áß ÇÑ ÂÊÀÌ ¹®ÀÚ¿­ÀÌ¸é?
+		// ¿¬»êÀÚ(+)´Â ¹®ÀÚ¿­ ¿¬»êÀÚ·Î Ã³¸®
+		// ¹®ÀÚ¿­·Î º¯È¯ ½ÃÄÑ¼­ Ã³¸®
+		String str1 = "JDK" + 6.0;		// ¹®ÀÚ¿­ + ¼ıÀÚ -> ¹®ÀÚ¿­
 		String str2 = str1 + " Æ¯Â¡";
 		System.out.println(str2);
 		
 		String str3 = "JDK" + 3 + 3.0;
-		
-		// ìˆ«ìê°€ ë¨¼ì € ì—°ì‚°ì„ ìˆ˜í–‰ í›„ ë¬¸ìì—´ë¡œ ë³€í™˜
-		String str4 = 3 + 3.0 + "JDK";
 		System.out.println(str3);
+		
+		// ¼ıÀÚ°¡ ¸ÕÀú ¿¬»êÀ» ¼öÇà ÈÄ ¹®ÀÚ¿­·Î º¯È¯
+		String str4 = 3 + 3.0 + "JDK"; // 6.0JDK
 		System.out.println(str4);		
 	}
 }

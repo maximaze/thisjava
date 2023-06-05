@@ -3,13 +3,14 @@ public class CheckValueBeforeCasting {
   public static void main(String[] args) {
 	  int i = 128;
 	  
-	  System.out.println("Byte.MIN.VALUE : " + Byte.MIN_VALUE);
-	  System.out.println("Byte.MAX.VALUE : " + Byte.MAX_VALUE);
+	  System.out.println("Byte.MIN_VALUE : " + Byte.MIN_VALUE);
+	  System.out.println("Byte.MAX_VALUE : " + Byte.MAX_VALUE);
 	  
 	  if( (i<Byte.MIN_VALUE) || (i>Byte.MAX_VALUE) ) {
-		  System.out.println("byte íƒ€ì…ìœ¼ë¡œ ë³€í™˜í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
-		  System.out.println("ê°’ì„ ë‹¤ì‹œ í™•ì¸í•´ ì£¼ì„¸ìš”");
-	  } else {
+		  System.out.println("byte Å¸ÀÔÀ¸·Î º¯È¯ÇÒ ¼ö ¾ø½À´Ï´Ù.");
+		  System.out.println("°ªÀ» ´Ù½Ã È®ÀÎÇØ ÁÖ¼¼¿ä");
+	  } 
+	  else {
 		  byte b = (byte) i;
 		  System.out.println(b);
 	  }

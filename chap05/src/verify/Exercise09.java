@@ -8,7 +8,7 @@ public class Exercise09 {
 		int studentNum = 0;
 		int[] scores = null;
 		
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in); // 키보드 입력
 		
 		while(run) {
 			System.out.println("--------------------------------------------------------------");

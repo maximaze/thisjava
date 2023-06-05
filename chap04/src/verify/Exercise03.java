@@ -8,7 +8,7 @@ public class Exercise03 {
 				sum += i;
 			}
 		}
-		System.out.println("3ì˜ ë°°ìˆ˜ì˜ í•©: " + sum);
+		System.out.println("3ÀÇ ¹è¼öÀÇ ÇÕ: " + sum);
 	}
 }
 

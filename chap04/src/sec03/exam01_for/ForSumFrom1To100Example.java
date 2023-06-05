@@ -8,7 +8,7 @@ public class ForSumFrom1To100Example {
 			sum += i;
 		}
 		
-		System.out.println("1~100 í•© : " + sum);
+		System.out.println("1~100 ÇÕ : " + sum);
 		*/
 		
 		int sum = 0; 
@@ -18,7 +18,7 @@ public class ForSumFrom1To100Example {
 			sum += i;
 		}
 		
-		System.out.println("1~" + (i-1) + " í•© : " + sum);
+		System.out.println("1~" + (i-1) + " ÇÕ : " + sum);
 	}
 }
 

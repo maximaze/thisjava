@@ -1,14 +1,15 @@
 package sec02.exam01_byte;
 public class ByteExample {
 	public static void main(String[] args) {
-		byte var1 = -128; // ë°”ì´íŠ¸ì˜ ìµœì†Œê°’
+		// ¹ÙÀÌÆ® : -128 ~ 127
+		byte var1 = -128; // ¹ÙÀÌÆ®ÀÇ ÃÖ¼Ò°ª
 		byte var2 = -30;
 		byte var3 = 0;
 		byte var4 = 30;
-		byte var5 = 127;  // ë°”ì´íŠ¸ì˜ ìµœëŒ€ê°’
+		byte var5 = 127; // ¹ÙÀÌÆ®ÀÇ ÃÖ´ë°ª
 		
-		//ì»´íŒŒì¼ ì—ëŸ¬: ë°”ì´íŠ¸ì´ ìµœëŒ€ê°’ì˜ ë²”ìœ„ë¥¼ ë„˜ìŒ
-		//byte var6 = 128;
+		// ÄÄÆÄÀÏ ¿¡·¯: ¹ÙÀÌÆ®ÀÇ ÃÖ´ë°ªÀÇ ¹üÀ§¸¦ ³ÑÀ½
+		// byte var6 = 128; 
 		
 		System.out.println(var1);
 		System.out.println(var2);
@@ -16,5 +17,7 @@ public class ByteExample {
 		System.out.println(var4);
 		System.out.println(var5);
 	} 
+	
+	
 }
 

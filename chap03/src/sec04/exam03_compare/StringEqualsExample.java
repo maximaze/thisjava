@@ -2,19 +2,19 @@ package sec04.exam03_compare;
 public class StringEqualsExample {
 	public static void main(String[] args) {
 		
-		// ë¬¸ìì—´ ë¦¬í„°ë„ì´ ë™ì¼í•˜ë©´ ë™ì¼í•œ String ê°ì²´ë¥¼ ì°¸ì¡°
-		String strVar1 = "ì‹ ë¯¼ì² ";
-		String strVar2 = "ì‹ ë¯¼ì² ";
+		// ¹®ÀÚ¿­ ¸®ÅÍ³ÎÀÌ µ¿ÀÏÇÏ¸é µ¿ÀÏÇÑ String °´Ã¼¸¦ ÂüÁ¶
+		String strVar1 = "½Å¹ÎÃ¶";
+		String strVar2 = "½Å¹ÎÃ¶";
 		
-		// ìƒˆë¡œìš´ í™(Heap)ì˜ì—­ì— ë©”ëª¨ë¦¬ë¥¼ í• ë‹¹
-		String strVar3 = new String("ì‹ ë¯¼ì² ");
+		// »õ·Î¿î Èü(Heap)¿µ¿ª¿¡ ¸Ş¸ğ¸®¸¦ ÇÒ´ç
+		String strVar3 = new String("½Å¹ÎÃ¶");
 
-		// ë©”ëª¨ë¦¬ í¬ì¸í„°ë¥¼ ë¹„êµ : ê°ì²´í˜•ì¸ ê²½ìš°
+		// ¸Ş¸ğ¸® Æ÷ÀÎÅÍ¸¦ ºñ±³ : °´Ã¼ÇüÀÎ °æ¿ì
 		System.out.println( strVar1 == strVar2); // true
 		System.out.println( strVar1 == strVar3); // false
 		System.out.println();
 		
-		// ê°’ì„ ë¹„êµ
+		// °ªÀ» ºñ±³
 		System.out.println( strVar1.equals(strVar2)); // true
 		System.out.println( strVar1.equals(strVar3)); // true
 	}

@@ -7,11 +7,11 @@ public class CharOperationExample {
 		
 		System.out.println("c1: " + c1);
 		System.out.println("c2: " + c2);
-		// ì»´íŒŒì¼ ì—ëŸ¬
+		
+		// ÄÄÆÄÀÏ ¿¡·¯
 		// Type mismatch: cannot convert from int to char
 		// char c3 = c2 + 1;
-		
-		//char c3 = (char)c2 + 1;
-		//System.out.println("c3: " + c3);
+		char c3 = (char)(c2 + 1);
+		System.out.println("c3: " + c3);
 	}
 }

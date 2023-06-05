@@ -4,11 +4,11 @@ public class Exercise04 {
 		int pencils = 534;
 		int students = 30;
 		
-		//í•™ìƒ í•œ ëª…ì´ ê°€ì§€ëŠ” ì—°í•„ ìˆ˜
+		//ÇĞ»ı ÇÑ ¸íÀÌ °¡Áö´Â ¿¬ÇÊ ¼ö
 		int pencilsPerStudent = ( pencils / students ); 
 		System.out.println(pencilsPerStudent);
 		
-		//ë‚¨ì€ ì—°í•„ ìˆ˜
+		//³²Àº ¿¬ÇÊ ¼ö
 		int pencilsLeft = ( pencils % students );
 		System.out.println(pencilsLeft);
 	}

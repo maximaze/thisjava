@@ -6,8 +6,12 @@ public class EnumWeekExample {
 	public static void main(String[] args) {
 		Week today = null;
 		
+		// Type mismatch: cannot convert from int to Week
+		// 열거변수에는 열거 상수만 할당할 수 있다.
+		// Week today = 1; 
+		
 		Calendar cal = Calendar.getInstance();
-		int week = cal.get(Calendar.DAY_OF_WEEK);
+		int week = cal.get(Calendar.DAY_OF_WEEK); // 요일
 		
 		switch(week) {
 			case 1:

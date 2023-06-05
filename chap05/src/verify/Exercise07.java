@@ -1,3 +1,6 @@
+/*
+ * 최대값 구하기
+ */
 package verify;
 public class Exercise07 {
 	public static void main(String[] args) {

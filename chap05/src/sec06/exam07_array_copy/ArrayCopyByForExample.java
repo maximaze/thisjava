@@ -10,7 +10,7 @@ public class ArrayCopyByForExample {
 		}
 		
 		for(int i=0; i<newIntArray.length; i++) {
-			System.out.print(newIntArray[i] + ", ");
+			System.out.print(newIntArray[i] + ", "); // 1,2,3,0,0
 		}
 	}
 }

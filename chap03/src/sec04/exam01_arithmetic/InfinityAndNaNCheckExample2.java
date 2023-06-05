@@ -4,7 +4,7 @@ public class InfinityAndNaNCheckExample2 {
 		int x = 5;
 		int y = 0;
 		
-		// ì •ìˆ˜íƒ€ì…ì¸ ê²½ìš° 0ìœ¼ë¡œ ë‚˜ëˆ„ë©´ : ArithmeticException ì˜ˆì™¸ë°œìƒ
+		// Á¤¼öÅ¸ÀÔÀÎ °æ¿ì 0À¸·Î ³ª´©¸é : ArithmeticException ¿¹¿Ü¹ß»ı
 		// Exception in thread "main" java.lang.ArithmeticException: / by zero
 		// int z = x / y;
 		
@@ -15,7 +15,7 @@ public class InfinityAndNaNCheckExample2 {
 			System.out.println("z2: " + z2);
 		} 
 		catch(ArithmeticException e) {
-			System.out.println("0ìœ¼ë¡œ ë‚˜ëˆ„ë©´ ì•ˆë¨");
+			System.out.println("0À¸·Î ³ª´©¸é ¾ÈµÊ");
 		}
 	}
 }

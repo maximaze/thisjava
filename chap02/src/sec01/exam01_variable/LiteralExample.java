@@ -5,10 +5,10 @@ public class LiteralExample {
 		int var1 = 10;
 		System.out.println(var1);
 		
-		int var2 = 010;
+		int var2 = 010; // 8진수
 		System.out.println(var2);
 		
-		int var3 = 0x10;
+		int var3 = 0x10; // 16진수
 		System.out.println(var3);
 	}
 }

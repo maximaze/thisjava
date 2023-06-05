@@ -1,15 +1,15 @@
-/* ì „ì²´ Label ì„ íƒ */
+/* ÀüÃ¼ Label ¼±ÅÃ */
 Label {
 	-fx-padding: 5;
 }
 
-/* id="lblId" ì„ ê°€ì§„ ì»¨íŠ¸ë¡¤ ì„ íƒ */
+/* id="lblId" À» °¡Áø ÄÁÆ®·Ñ ¼±ÅÃ */
 #lblId {
 	-fx-background-color: black;
 	-fx-text-fill: yellow;
 }
 
-/* styleClass="lblClass"ì„ ê°€ì§„ ì»¨íŠ¸ë¡¤ ì„ íƒ */
+/* styleClass="lblClass"À» °¡Áø ÄÁÆ®·Ñ ¼±ÅÃ */
 .lblClass {
 	-fx-background-color: blue;
 	-fx-text-fill: white;

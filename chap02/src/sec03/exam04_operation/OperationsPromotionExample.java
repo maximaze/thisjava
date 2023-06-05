@@ -4,31 +4,30 @@ public class OperationsPromotionExample {
 		byte byteValue1 = 10;
 		byte byteValue2 = 20;
 		
-		// ì»´íŒŒì¼ ì—ëŸ¬
-		// ì •ìˆ˜ ì—°ì‚°ì„ intë¡œ ì²˜ë¦¬í•˜ë¯€ë¡œ
-		// byteValue1 + byteValue2 ì²˜ë¦¬ ê²°ê³¼ëŠ” intë˜ì–´
+		// ÄÄÆÄÀÏ ¿¡·¯
+		// Á¤¼ö ¿¬»êÀ» int·Î Ã³¸®ÇÏ¹Ç·Î 
+		// byteValue1 + byteValue2 Ã³¸® °á°ú´Â intµÇ¾î
 		// byte = int
-		// byte byteValue3 = byteValue1 + byteValue2;
+		// byte byteValue3 = byteValue1 + byteValue2;   
 		byte byteValue3 = (byte)(byteValue1 + byteValue2);
-		System.out.println("byteValue3: "+ byteValue3);
+		System.out.println("byteValue3:" + byteValue3);
 		
 		int intValue1 = byteValue1 + byteValue2;
 		System.out.println(intValue1);
 		
 		char charValue1 = 'A';
 		char charValue2 = 1;
-		
-		//char charValue3 = charValue1 + charValue2;   //ì»´íŒŒì¼ ì—ëŸ¬
+		//char charValue3 = charValue1 + charValue2;   //ÄÄÆÄÀÏ ¿¡·¯
 		int intValue2 = charValue1 + charValue2;
-		System.out.println("ìœ ë‹ˆì½”ë“œ=" + intValue2);
-		System.out.println("ì¶œë ¥ë¬¸ì=" + (char)intValue2);
+		System.out.println("À¯´ÏÄÚµå=" + intValue2);
+		System.out.println("Ãâ·Â¹®ÀÚ=" + (char)intValue2);
 		
 		int intValue3 = 10;
 		int intValue4 = intValue3/4;
 		System.out.println(intValue4);
 		
 		int intValue5 = 10;
-		//int intValue6 = 10 / 4.0;   //ì»´íŒŒì¼ ì—ëŸ¬
+		//int intValue6 = 10 / 4.0;   //ÄÄÆÄÀÏ ¿¡·¯
 		double doubleValue = intValue5 / 4.0;
 		System.out.println(doubleValue);
 	} 

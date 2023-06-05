@@ -1,29 +1,31 @@
 package sec04.exam01_arithmetic;
 
 public class CheckOverflowExample2 {
-	private static final int MAX_VALUE = 0;
-	private static final int MIN_VALUE = 0;
-
+	final static int MIN_VALUE = -10;
+	final static int MAX_VALUE = 10;
+	
 	public static void main(String[] args) {
 		try {
 			int result = safeAdd(-10, -5);
 			System.out.println(result);
-		} catch(ArithmeticException e) {
+		} 
+		catch(ArithmeticException e) {
 			System.out.println(e.getMessage());
 		}
 	}
 	
 	public static int safeAdd(int left, int right)  {
-		if((right>0)) { 
-			if(left>(MAX_VALUE - right)) {
-				throw new ArithmeticException("ì˜¤ë²„í”Œë¡œìš° ë°œìƒ(+): "+(left + right));
+		if((right > 0)) { 
+			if(left > (MAX_VALUE - right)) {
+				throw new ArithmeticException("¿À¹öÇÃ·Î¿ì ¹ß»ý(+) : " + (left + right));
 			}
 		} 
 		else {
-			if(left<(MIN_VALUE - right)) { // -10 - (-5) = -5
-				throw new ArithmeticException("ì˜¤ë²„í”Œë¡œìš° ë°œìƒ(-): "+(left + right));
+			if(left < (MIN_VALUE - right)) { // -10 - (-5) = -5
+				throw new ArithmeticException("¿À¹öÇÃ·Î¿ì ¹ß»ý(-) : " + (left + right));
 			}
 		}
+		
 		return left + right;
 	}
 }

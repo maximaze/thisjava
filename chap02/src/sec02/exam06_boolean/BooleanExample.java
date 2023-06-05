@@ -1,11 +1,11 @@
 package sec02.exam06_boolean;
 public class BooleanExample {
 	public static void main(String[] args) {
-		boolean stop = true;
+		boolean stop = true; // true, or false
 		if(stop) {
-			System.out.println("ì¤‘ì§€í•©ë‹ˆë‹¤.");
+			System.out.println("ÁßÁöÇÕ´Ï´Ù.");
 		} else {
-			System.out.println("ì‹œìž‘í•©ë‹ˆë‹¤.");
+			System.out.println("½ÃÀÛÇÕ´Ï´Ù.");
 		}
 	} 
 }

@@ -1,15 +1,16 @@
-// ìºìŠ¤íŒ…(casting) : ê°•ì œ íƒ€ì… ë³€í™˜
-// í° í¬ê¸° íƒ€ì…ì—ì„œ ì‘ì€ í¬ê¸° íƒ€ì…ìœ¼ë¡œ ë³€í™˜
-// ì‘ì€ í¬ê¸° íƒ€ì… = (ì‘ì€ í¬ê¸° íƒ€ì…)í° í¬ê¸° íƒ€ì…
+// Ä³½ºÆÃ(casting) : °­Á¦ Å¸ÀÔ º¯È¯
+// Å« Å©±â Å¸ÀÔ¿¡¼­ ÀÛÀº Å©±â Å¸ÀÔÀ¸·Î º¯È¯
+// ÀÛÀº Å©±â Å¸ÀÔ = (ÀÛÀº Å©±â Å¸ÀÔ)Å« Å©±â Å¸ÀÔ
+
 package sec03.exam02_casting;
 public class CastingExample {
 	public static void main(String[] args) {	
-		int intValue = 44032;
+		int intValue = 44032; 
 		
 		// Type mismatch: cannot convert from int to char
-		// char charValue = inValue;
+		// char charValue = intValue; 
 		
-		char charValue = (char) intValue;
+		char charValue = (char)intValue; // '°¡'
 		System.out.println(charValue);
 		
 		long longValue = 500;

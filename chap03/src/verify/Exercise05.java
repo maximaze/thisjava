@@ -1,14 +1,14 @@
 /*
- * value ê°’ì´ 356ì´ë¼ë©´ 300ì´ ë‚˜ì˜¬ ìˆ˜ ìˆë„ë¡ í•˜ë¼.
- * ì‚°ìˆ  ì—°ì‚°ë§Œ ìˆ˜í–‰í•˜ë¼
+ * value °ªÀÌ 356ÀÌ¶ó¸é 300ÀÌ ³ª¿Ã ¼ö ÀÖµµ·Ï ÇÏ¶ó.
+ * »ê¼ú ¿¬»ê¸¸ ¼öÇàÇÏ¶ó
  */
 
 package verify;
 public class Exercise05 {
 	public static void main(String[] args) {
 		int value = 356;
-		System.out.println("356 - 56 = " + (value - 56));
-		System.out.println("356 / 100 * 100 = " +(value / 100 * 100));
+		System.out.println(   356 / 100 * 100    );
+		System.out.println(   365 - 65   );
 	}
 }
 

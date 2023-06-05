@@ -1,19 +1,19 @@
-/*text-area ë°°ê²½ìƒ‰*/
+/*text-area ¹è°æ»ö*/
 .text-area {
 	-fx-background-color: gold;
 }
 
-/*scroll-pane ë°°ê²½ìƒ‰*/
+/*scroll-pane ¹è°æ»ö*/
 .text-area .scroll-pane {
 	-fx-background-color: transparent;
 }
 
-/*viewport ë°°ê²½ìƒ‰*/
+/*viewport ¹è°æ»ö*/
 .text-area .scroll-pane .viewport{
 	-fx-background-color: transparent;
 }
 
-/*content ë°°ê²½ìƒ‰*/
+/*content ¹è°æ»ö*/
 .text-area .scroll-pane .content{
 	-fx-background-color: transparent;
 }
