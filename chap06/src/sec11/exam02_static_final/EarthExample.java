@@ -2,8 +2,8 @@ package sec11.exam02_static_final;
 
 public class EarthExample {
 	public static void main(String[] args) {		
-		System.out.println("Áö±¸ÀÇ ¹İÁö¸§: " + Earth.EARTH_RADIUS + " km");
-		System.out.println("Áö±¸ÀÇ Ç¥¸éÀû: " + Earth.EARTH_SURFACE_AREA + "  km^2");		
+		System.out.println("ì§€êµ¬ì˜ ë°˜ì§€ë¦„: " + Earth.EARTH_RADIUS + " km");
+		System.out.println("ì§€êµ¬ì˜ í‘œë©´ì : " + Earth.EARTH_SURFACE_AREA + "  km^2");		
 	}
 }
 

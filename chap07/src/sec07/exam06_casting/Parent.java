@@ -1,4 +1,4 @@
-package sec07.exam06_casting;
+ package sec07.exam06_casting;
 
 public class Parent {
 	public String field1;

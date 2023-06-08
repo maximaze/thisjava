@@ -1,3 +1,6 @@
+/*
+ * instanceof는 진짜 어디에 속하는지 맞는지를 확인하는 용도 같음
+ */
 package sec07.exam07_instanceof;
 
 public class InstanceofExample {

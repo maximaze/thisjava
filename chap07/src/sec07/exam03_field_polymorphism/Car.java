@@ -2,10 +2,16 @@ package sec07.exam03_field_polymorphism;
 
 public class Car {
 	//필드
+	/*
 	Tire frontLeftTire = new Tire("앞왼쪽", 6);
 	Tire frontRightTire = new Tire("앞오른쪽", 2);
 	Tire backLeftTire = new Tire("뒤왼쪽", 3);
 	Tire backRightTire = new Tire("뒤오른쪽", 4);
+	*/
+	Tire frontLeftTire = new Tire("앞왼쪽", 6);
+	Tire frontRightTire = new HankookTire("앞오른쪽", 2);
+	Tire backLeftTire = new Tire("뒤왼쪽", 3);
+	Tire backRightTire = new KumhoTire("뒤오른쪽", 4);
 	
 	//생성자
 	

@@ -3,7 +3,7 @@ package sec07.exam03_field_polymorphism;
 public class Tire {
 	//필드
 	public int maxRotation;     			//최대 회전수(최대 수명)
-	public int accumulatedRotation;		//누적 회전수
+	public int accumulatedRotation;		    //누적 회전수
 	public String location;       			//타이어의 위치
 
 	//생성자

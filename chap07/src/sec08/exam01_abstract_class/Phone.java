@@ -1,3 +1,6 @@
+/*
+ * abstract 추상클래스
+ */
 package sec08.exam01_abstract_class;
 
 public abstract class Phone {

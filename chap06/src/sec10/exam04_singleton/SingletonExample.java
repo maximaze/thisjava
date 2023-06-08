@@ -3,17 +3,17 @@ package sec10.exam04_singleton;
 public class SingletonExample {
 	public static void main(String[] args) {
 		/*
-		Singleton obj1 = new Singleton();  //ÄÄÆÄÀÏ ¿¡·¯
-		Singleton obj2 = new Singleton();  //ÄÄÆÄÀÏ ¿¡·¯
+		Singleton obj1 = new Singleton();  //ì»´íŒŒì¼ ì—ëŸ¬
+		Singleton obj2 = new Singleton();  //ì»´íŒŒì¼ ì—ëŸ¬
 		*/
 		
 		Singleton obj1 = Singleton.getInstance();
 		Singleton obj2 = Singleton.getInstance();
 		
 		if(obj1 == obj2) {
-			System.out.println("°°Àº Singleton °´Ã¼ ÀÔ´Ï´Ù.");
+			System.out.println("ê°™ì€ Singleton ê°ì²´ ì…ë‹ˆë‹¤.");
 		} else {
-			System.out.println("´Ù¸¥ Singleton °´Ã¼ ÀÔ´Ï´Ù.");
+			System.out.println("ë‹¤ë¥¸ Singleton ê°ì²´ ì…ë‹ˆë‹¤.");
 		}
 	}
 }
